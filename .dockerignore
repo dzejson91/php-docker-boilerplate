@@ -3,5 +3,5 @@
 backup/*
 bin/*
 app/*
+mysql/*
 docker/*
-documentation/*

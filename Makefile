@@ -45,21 +45,11 @@ mysql-restore:
 	bash ./bin/restore.sh mysql
 
 #############################
-# Solr
-#############################
-
-solr-backup:
-	bash ./bin/backup.sh solr
-
-solr-restore:
-	bash ./bin/restore.sh solr
-
-#############################
 # General
 #############################
 
-backup:  mysql-backup  solr-backup
-restore: mysql-restore solr-restore
+backup:  mysql-backup
+restore: mysql-restore
 
 build:
 	bash bin/build.sh

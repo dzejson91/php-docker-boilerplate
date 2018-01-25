@@ -1,15 +1,7 @@
 #######################################
-# Environment Configuration
-#  - feel free to edit -
-# -> for most changes you only have to
-#         docker-compose up -d
-#    to apply them
-#######################################
-
-#######################################
 # PHP Debugger (xdebug|blackfire|none)
 
-PHP_DEBUGGER=xdebug
+PHP_DEBUGGER=none
 
 #######################################
 # Context environment

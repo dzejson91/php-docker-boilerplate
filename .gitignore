@@ -1,6 +1,8 @@
 .DS_Store
 .idea
 nbproject
+/mysql/*
+!/mysql/
 /backup/*
 /app/*
 /docker-compose.yml
